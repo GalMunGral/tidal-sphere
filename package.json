@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "source": "./index.html",
-  "publicUrl": "/S2-graph",
   "scripts": {
     "dev": "parcel",
-    "build": "parcel build"
+    "build": "parcel build --public-url /S2-graph"
   },
   "author": "",
   "license": "ISC",
