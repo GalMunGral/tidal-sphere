@@ -31,7 +31,7 @@ camera.position.z = 40;
 
 const controls = new ArcballControls(camera, renderer.domElement, scene);
 
-const world = new World(10, 5);
+const world = new World(10, config.details);
 world.addToScene(scene);
 
 function updatePositions() {
