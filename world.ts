@@ -96,7 +96,7 @@ export class World {
     }
 
     for (let i = 0; i < config.numSources; ++i) {
-      const geometry = new THREE.SphereGeometry(0.5, 10, 10);
+      const geometry = new THREE.SphereGeometry(0.1, 10, 10);
       const material = new THREE.MeshStandardMaterial({
         color: 0xffffff,
       });

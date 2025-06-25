@@ -22,12 +22,12 @@ document.body.appendChild(renderer.domElement);
 const light = new THREE.AmbientLight(0x404040);
 scene.add(light);
 
-const directionalLight = new THREE.DirectionalLight(0xffffff);
+const directionalLight = new THREE.DirectionalLight(0xffffff, 2);
 directionalLight.position.set(1, 1, 1);
 directionalLight.lookAt(0, 0, 0);
 scene.add(directionalLight);
 
-camera.position.z = 40;
+camera.position.z = config.cameraDist;
 
 const controls = new ArcballControls(camera, renderer.domElement, scene);
 
