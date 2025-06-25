@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "paths": {
+            "three/addons/controls/ArcballControls": [
+                "./node_modules/three/examples/jsm/controls/ArcballControls.js"
+            ]
+        }
+    }
+}
