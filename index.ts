@@ -27,7 +27,7 @@ directionalLight.position.set(1, 1, 1);
 directionalLight.lookAt(0, 0, 0);
 scene.add(directionalLight);
 
-camera.position.z = 50;
+camera.position.z = 40;
 
 const controls = new ArcballControls(camera, renderer.domElement, scene);
 
@@ -35,9 +35,12 @@ const world = new World(10, 5);
 world.addToScene(scene);
 
 function updatePositions() {
-  for (const source of world.sources) {
+  for (const [i, source] of world.sources.entries()) {
     const quaternion = new THREE.Quaternion();
-    quaternion.setFromAxisAngle(source.axis, config.sourceSpeed);
+    quaternion.setFromAxisAngle(
+      source.axis,
+      config.sourceSpeed * ((i + 1) / world.sources.length)
+    );
     source.obj.position.applyQuaternion(quaternion);
   }
 

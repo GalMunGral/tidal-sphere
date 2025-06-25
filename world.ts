@@ -107,9 +107,9 @@ export class World {
       this.sources.push({
         obj: sphere,
         axis: new THREE.Vector3(
-          Math.random() - 0.5,
-          Math.random() - 0.5,
-          Math.random() - 0.5
+          Math.random(),
+          Math.random(),
+          Math.random()
         ).normalize(),
       });
     }
@@ -120,8 +120,8 @@ export class World {
         color: 0x00ffff,
         metalness: 0.5,
         roughness: 0,
-        //   opacity: 0.8,
-        //   transparent: true,
+        opacity: 0.8,
+        transparent: true,
       })
     );
 
