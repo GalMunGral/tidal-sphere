@@ -1,6 +1,4 @@
 export const config = {
-  merge: true,
-  details: 5,
   attraction: 0.1,
   repulsion: 0.5,
   numSources: 10,

@@ -41,9 +41,7 @@ class Graph {
       this.keys[i] = i;
       for (let j = 0; j < i; ++j) {
         if (this.points[i].pos.distanceTo(this.points[j].pos) < 1e-5) {
-          if (config.merge) {
-            this.keys[i] = j;
-          }
+          this.keys[i] = j;
           break;
         }
       }
