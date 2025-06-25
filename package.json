@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "source": "./index.html",
-  "publicUrl": "/visible-human-vtk",
+  "publicUrl": "/S2-graph",
   "scripts": {
     "dev": "parcel",
     "build": "parcel build"
