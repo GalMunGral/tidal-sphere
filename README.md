@@ -1,6 +1,6 @@
-# S2 Graph
+# Tidal Sphere
 
-**Live demo:** https://galmungral.github.io/S2-graph/
+**Live demo:** https://galmungral.github.io/tidal-sphere/
 
 ## Rhetorical Design
 

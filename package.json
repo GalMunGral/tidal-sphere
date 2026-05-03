@@ -5,7 +5,7 @@
   "source": "./index.html",
   "scripts": {
     "dev": "parcel",
-    "build": "parcel build --public-url /S2-graph"
+    "build": "parcel build --public-url /tidal-sphere"
   },
   "author": "",
   "license": "ISC",
