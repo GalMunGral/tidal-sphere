@@ -4,16 +4,12 @@
 
 ## Rhetorical Design
 
-### Goal
+### Purpose
 
 For a general audience, we explore what force-directed graph layout looks like
 when the graph is embedded in $\mathbb{R}^3$ on a closed surface, rather than
-in the plane.
-
-### Challenge
-
-Force-directed layout is typically demonstrated in $\mathbb{R}^2$. Embedding a
-graph on a closed surface introduces a qualitatively different behavior —
+in the plane. Force-directed layout is typically demonstrated in $\mathbb{R}^2$;
+embedding on a closed surface introduces qualitatively different behavior —
 analogous to surface tension — that is difficult to convey without an
 interactive 3D visualization.
 
